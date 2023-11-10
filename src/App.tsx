@@ -39,9 +39,9 @@ function App() {
               element={<MainLayout lang={lang} setLang={setLang} />}
             >
               <Route index element={<Home lang={lang} />} />
-              <Route path="about" element={<About lang={lang} />} />
-              <Route path="contacts" element={<Contacts lang={lang} />} />
-              <Route path="portfolio" element={<Portfolio lang={lang} />} />
+              <Route path="/about" element={<About lang={lang} />} />
+              <Route path="/contacts" element={<Contacts lang={lang} />} />
+              <Route path="/portfolio" element={<Portfolio lang={lang} />} />
             </Route>
           </Routes>
         </AnimatePresence>

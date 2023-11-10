@@ -1,7 +1,6 @@
 import pokerface from '../../../assets/img/pokerface.jpg';
 import samoletova from '../../../assets/img/samoletova.jpg';
 import recastman from '../../../assets/img/recastman.jpg';
-import jsVanila from '../../../assets/img/jsVanila.jpg';
 import logoPokerface from '../../../assets/img/PokerFace_logo.jpg';
 import logoRecastman from '../../../assets/img/recastman_logo.png';
 import logoSamoletova from '../../../assets/img/s_samoletova_logo1.png';
@@ -34,15 +33,15 @@ const card_1: Card = {
     'Vite',
     'localStorage',
   ],
-  codeLink: 'https://github.com/my1hat/pokerface_react',
+  codeLink: 'https://github.com/ru4nic/pokerface',
   pageLink: 'https://pokerfaceband.ru/',
   logo: logoPokerface,
 };
 const card_2: Card = {
   image: samoletova,
   techs: ['React', 'TypeScript', 'MUI', 'Swiper', 'styled-components', 'Vite'],
-  codeLink: 'https://github.com/my1hat/s_samoletova',
-  pageLink: 'https://my1hat.github.io/s_samoletova/',
+  codeLink: 'https://github.com/ru4nic/s_samoletova',
+  pageLink: 'https://ru4nic.github.io/s_samoletova/',
   logo: logoSamoletova,
 };
 const card_3: Card = {
@@ -57,16 +56,9 @@ const card_3: Card = {
     'Vite',
     'localStorage',
   ],
-  codeLink: 'https://github.com/my1hat/recastman-studio',
-  pageLink: 'https://my1hat.github.io/recastman-studio/',
+  codeLink: 'https://github.com/ru4nic/recastman-studio',
+  pageLink: 'https://ru4nic.github.io/recastman-studio/',
   logo: logoRecastman,
-};
-const card_4: Card = {
-  image: jsVanila,
-  techs: ['JavaScript', 'SCSS', 'Gulp'],
-  codeLink: 'https://github.com/my1hat/my1hat.github.io',
-  pageLink: 'https://my1hat.github.io/',
-  logo: logoPokerface,
 };
 
 interface CardWithDetails extends Card {
@@ -107,12 +99,6 @@ export const texts: Texts = {
         category: 'Сайт визитка',
         desc: ['Студия звукозаписи и съемки видео клипов.'],
       },
-      {
-        ...card_4,
-        year: '2022',
-        category: 'Корпоративный сайт',
-        desc: ['Первая версия страницы группы Pokerface.'],
-      },
     ],
   },
   en: {
@@ -140,12 +126,6 @@ export const texts: Texts = {
         year: '2023',
         category: 'Business card site',
         desc: ['Recording studio and video clip shooting.'],
-      },
-      {
-        ...card_4,
-        year: '2022',
-        category: 'Corporate website',
-        desc: ['The first version of the Pokerface group page.'],
       },
     ],
   },

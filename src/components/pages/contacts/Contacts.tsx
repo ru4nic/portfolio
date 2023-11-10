@@ -81,7 +81,7 @@ type SocLinks = {
 }[];
 const socLinks: SocLinks = [
   {
-    href: 'https://github.com/my1hat',
+    href: 'https://github.com/ru4nic',
     icon: FaGithub,
   },
   {
@@ -89,7 +89,7 @@ const socLinks: SocLinks = [
     icon: BsTelegram,
   },
   {
-    href: 'mailto:my1stjam@bk.ru',
+    href: 'mailto:my1hat@icloud.com',
     icon: MdOutlineEmail,
   },
 ];
